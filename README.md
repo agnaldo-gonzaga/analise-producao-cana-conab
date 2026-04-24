@@ -1,37 +1,83 @@
-# 🎋 Análise de Performance: Produção de Cana-de-Açúcar (Dados CONAB)
+# 🎋 Análise de Performance e Evolução da Cana-de-Açúcar
 
-Este projeto realiza o pipeline completo de dados (ETL e EDA) sobre a produção nacional de cana-de-açúcar, utilizando dados oficiais da **CONAB**. O foco é transformar dados governamentais brutos em indicadores de produtividade por estado e região.
+> Dados oficiais da CONAB — Companhia Nacional de Abastecimento | Safras 2017/18 a 2025/26
 
 ---
 
-## 🚀 Objetivo do Projeto
-Demonstrar habilidades em engenharia de dados (limpeza e estruturação) e análise exploratória para responder perguntas estratégicas do setor agrícola:
-* Qual a evolução do **TCH (Toneladas de Cana por Hectare)** nas últimas safras?
-* Quais estados lideram em produtividade vs. área plantada?
-* Identificação de variações sazonais na produção das regiões Centro-Sul e Norte-Nordeste.
+## 📌 Sobre o Projeto
 
-## 🛠️ Tecnologias e Ferramentas
-* **Linguagem:** Python 3.x
-* **Manipulação de Dados:** Pandas, NumPy
-* **Visualização:** Matplotlib, Seaborn
+Pipeline completo de dados (ETL → EDA → Visualizações) sobre a produção nacional de 
+cana-de-açúcar, transformando dados governamentais brutos em indicadores de 
+produtividade por estado e região.
+
+---
+
+## 🚀 Perguntas Respondidas
+
+- Qual a evolução do TCH (Toneladas de Cana por Hectare) nas últimas safras?
+- Quais estados lideram em produtividade vs. área plantada?
+- Como evoluiu a produção de açúcar vs. etanol ao longo das safras?
+- Quais as variações sazonais entre as regiões Centro-Sul e Norte-Nordeste?
+
+---
+
+## 📊 Visualizações
+
+### Produção Total por Safra
+![Produção por Safra](reports/figures/01_producao_por_safra.png)
+
+---
+
+## 🛠️ Tecnologias
+
+| Categoria | Ferramentas |
+|---|---|
+| Linguagem | Python 3.x |
+| Manipulação | Pandas, NumPy |
+| Visualização | Matplotlib, Seaborn, Plotly |
+
+---
 
 ## 📁 Estrutura do Repositório
-* `01_limpeza_dados.ipynb`: Notebook com todo o processo de tratamento, tratamento de nulos e normalização das unidades de medida.
-* `cana_todos_levantamentos.csv`: Dataset contendo o histórico consolidado de safras.
 
-## 📊 Processo de ETL (Extração, Transformação e Carga)
-Nesta fase inicial (contida no script de limpeza), realizei:
-1. **Padronização:** Conversão de tipos de dados para otimização de memória.
-2. **Tratamento de Strings:** Limpeza de nomes de estados e categorias de produtos.
-3. **Cálculos de Negócio:** Criação de colunas para cálculo de rendimento médio.
+ANALISE-PRODUCAO-CANA-CONAB/
+├── data/
+│   ├── raw/                  ← dados originais da CONAB
+│   └── processed/            ← dados limpos e prontos para análise
+├── notebooks/
+│   ├── 01_limpeza_dados.ipynb
+│   ├── 02_analise_exploratoria.ipynb
+│   └── 03_visualizacoes.ipynb
+├── reports/
+│   └── figures/              ← gráficos exportados
+├── requirements.txt
+└── README.md
 
 ---
 
+## ▶️ Como Executar
 
+```bash
+# Clone o repositório
+git clone https://github.com/agnaldo-gonzaga/analise-producao-cana-conab.git
+
+# Crie e ative o ambiente virtual
+python -m venv venv
+venv\Scripts\activate  # Windows
+
+# Instale as dependências
+pip install -r requirements.txt
+
+# Execute os notebooks na ordem
+# 01 → 02 → 03
+```
+
+---
 
 ## 🤝 Contato
-- **LinkedIn:** [https://www.linkedin.com/in/agnaldo-gonzaga/]
 
+- LinkedIn: [agnaldo-gonzaga](https://www.linkedin.com/in/agnaldo-gonzaga/)
 
 ---
+
 *Projeto desenvolvido como parte da jornada em Data Science e Analytics.*
