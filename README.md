@@ -61,6 +61,22 @@ produtividade por estado e região.
 
 ---
 
+### Açúcar vs Etanol por safra
+![Açúcar vs Etanol por safra](reports/figures/03_acucar_vs_etanol.png)
+
+### 📌 Insights - Açúcar vs Etanol por safra
+
+- **2023/24** registrou o **pico histórico de açúcar**: **45.678,8 mil t** — maior volume das 8 safras, superando em +10,7% o segundo colocado (2024/25, 44.853,6 mil t), sinalizando dois anos consecutivos de recorde no segmento sólido
+- **2019/20** concentrou a **máxima de etanol**: **34,00 bilhões de litros** — após a quebra de 2017/18 (27,24 bi L), o setor acelerou a conversão de cana para líquido, atingindo o topo do período analisado
+- **2021/22 foi o piso duplo**: menor produção de açúcar (35.049,1 mil t) e de etanol (26,78 bi L) no ciclo — reflexo de adversidades climáticas e queda na disponibilidade de cana na região Centro-Sul
+- A **proporção de cana para etanol oscilou entre 26,78% e 34,00%**, com média de ~29,8% — variação relativamente estreita, indicando que a flexibilidade produtiva das usinas (flex) absorve choques sem grandes desvios estruturais
+- **Trajetória pós-2021/22**: ambos os indicadores se recuperam em conjunto, mas com dinâmicas distintas — açúcar em alta consistente (+30,3%), etanol em recuperação moderada (+9,6%), sugerindo **viés crescente de alocação para o sólido** nas safras recentes
+
+> 💡 **Tendência geral:** o setor sucroenergético demonstra resiliência cíclica, com picos alternados entre açúcar e etanol conforme incentivos de preço — mas a aceleração pós-2022/23 no açúcar aponta para uma janela de rentabilidade que tem puxado a alocação produtiva para esse lado da balança.
+
+---
+
+
 ## 🛠️ Tecnologias
 
 | Categoria | Ferramentas |
