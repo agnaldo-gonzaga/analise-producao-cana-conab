@@ -4,6 +4,8 @@
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue) ![Status](https://img.shields.io/badge/Status-Concluído-green) ![Licença](https://img.shields.io/badge/Licença-MIT-lightgrey)
 
+![Python](https://img.shields.io/badge/Python-3.x-blue) ![Status](https://img.shields.io/badge/Status-Concluído-green) ![Licença](https://img.shields.io/badge/Licença-MIT-lightgrey) [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://cana-conab-brasil.streamlit.app)
+
 ---
 
 ## 👤 Sobre o Projeto
@@ -131,6 +133,10 @@ ANALISE-PRODUCAO-CANA-CONAB/
 ---
 
 ## ▶️ Como Executar
+
+🌐 **[Acesse o dashboard interativo aqui](https://cana-conab-brasil.streamlit.app)**
+
+---
 
 ```bash
 # Clone o repositório
