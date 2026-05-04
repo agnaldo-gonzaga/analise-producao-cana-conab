@@ -2,8 +2,6 @@
 
 > Dados oficiais da CONAB — Companhia Nacional de Abastecimento | Safras 2017/18 a 2025/26
 
-![Python](https://img.shields.io/badge/Python-3.x-blue) ![Status](https://img.shields.io/badge/Status-Concluído-green) ![Licença](https://img.shields.io/badge/Licença-MIT-lightgrey)
-
 ![Python](https://img.shields.io/badge/Python-3.x-blue) ![Status](https://img.shields.io/badge/Status-Concluído-green) ![Licença](https://img.shields.io/badge/Licença-MIT-lightgrey) [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://cana-conab-brasil.streamlit.app)
 
 ---
